@@ -7,9 +7,11 @@ allow init vendor_default_prop:property_service set;
 allow init sysfs_info:file { open read };
 allow init sysfs:file setattr;
 allow init persist_block_device:lnk_file relabelto;
+allow init hal_memtrack_default:process noatsecure;
+allow init sysfs_graphics:file { open write };
+
 allow hal_lineage_livedisplay_qti hal_graphics_composer_default:binder call;
 allow hal_lineage_livedisplay_qti qdisplay_service:service_manager find;
-allow init hal_memtrack_default:process noatsecure;
 allow hal_memtrack_default sysfs_kgsl:lnk_file read;
 allow hal_fingerprint_sdm660 hal_perf_hwservice:hwservice_manager find;
 allow system_server persist_camera_prop:file read;
