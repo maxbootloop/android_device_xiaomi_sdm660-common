@@ -254,6 +254,14 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|a917bd71ccfdbdd89e26704a230c7c148d3cc4b5
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|1ac676dca4c81094b254b62f1b608e471b385847
 
+# ESE - from LA.UM.8.2.r1-06500-sdm660.0
+vendor/lib/vendor.qti.esepowermanager@1.0.so|3341cf119f0079d97cbb32bfd2ebbef70b5ddff2
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|93ecaff0ce279b4a9e7598ce83a9b6e1ee28c650
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|8adb9b42e9c2db3afb5f05e7f5aa525ccf00dedf
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|e54cbf5d492bb343cfce4c53b32b38e23a0ba42c
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|3fff44cbb1cf2cfcfe3886032da210ef0ead3198
+
 # FM - from LA.UM.8.2.r1-06500-sdm660.0
 -product/lib/vendor.qti.hardware.fm@1.0.so|8e13cca2be4c4f9812d656e4cb15bd524fdfdf12
 -product/lib64/vendor.qti.hardware.fm@1.0.so|027c226838e80a04209e5fb6a8882ce78c3b4222
@@ -387,10 +395,10 @@ vendor/lib/hw/vulkan.sdm660.so|7f677363774e3c12613f004922cb7aba9aa3bf7b
 vendor/lib64/hw/vulkan.sdm660.so|7f37b59e75cb1739b74ff9646dc958591cd7fa23
 
 # IOP - from LA.UM.8.2.r1-06500-sdm660.0
-product/lib/vendor.qti.hardware.iop@1.0.so|983cd9950076bf4e9c2b814dfde6add0826d468d
-product/lib/vendor.qti.hardware.iop@2.0.so|d0789f2247f38d1f7f87a48c7926703b1e44c054
-product/lib64/vendor.qti.hardware.iop@1.0.so|a87a7a3e5091e3d4fa7019454335f4345c46e612
-product/lib64/vendor.qti.hardware.iop@2.0.so|bed4a8487d9aea6090bae5b87ce3235343713e0a
+vendor/lib/vendor.qti.hardware.iop@1.0.so|983cd9950076bf4e9c2b814dfde6add0826d468d
+vendor/lib/vendor.qti.hardware.iop@2.0.so|d0789f2247f38d1f7f87a48c7926703b1e44c054
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|a87a7a3e5091e3d4fa7019454335f4345c46e612
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|bed4a8487d9aea6090bae5b87ce3235343713e0a
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|cd34c88527022cc0533f099d16d2beceea515620
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|3028eb81937a1748b686191a5bc599cc201645ad
